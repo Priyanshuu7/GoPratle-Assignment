@@ -1,0 +1,26 @@
+# dependencies
+node_modules
+
+# build output
+dist
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor folders
+.vscode
+.idea
+
+# coverage / test output
+coverage
